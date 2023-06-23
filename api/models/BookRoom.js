@@ -4,6 +4,8 @@ const BookRoomSchema = new mongoose.Schema({
   book_time: Number,
   display_status: Boolean,
   name_book: String,
+  email: String,
+  imageUrl: String,
   created_at: { type: Date, default: Date.now },
 });
 
